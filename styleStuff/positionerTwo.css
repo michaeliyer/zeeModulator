@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(25, 178, 63);
+    background-color: rgb(9, 127, 38);
     color: rgb(10, 55, 30);
 }
 
@@ -42,7 +42,7 @@ body {
 
 #wordResults,
 #stats {
-    color: rgb(222, 152, 21);
+    color: rgb(110, 37, 5);
     margin-top: 20px;
     font-size: 18px;
     font-family: "League Spartan", serif;
@@ -52,7 +52,7 @@ body {
 }
 
 .highlight {
-    color: rgb(0, 132, 255);
+    color: rgb(236, 246, 255);
     font-weight: bold;
 }
 
@@ -60,12 +60,12 @@ body {
     padding: .2rem;
     max-width: 10.5rem;
     margin-left: 1rem;
-    color: rgb(222, 152, 21);
     text-decoration: none;
-    background-color: rgb(25, 178, 63);
+    background-color: rgb(9, 127, 38);
     margin-top: .25rem;
     margin-bottom: .25rem;
     font-weight: bolder;
+    font-size: 1.5rem;
 }
 
 #linksVille {
@@ -81,17 +81,17 @@ body {
 }
 
 .linkOne {
-    color:rgb(147, 12, 93);
+    color:rgb(204, 77, 153);
     font-family: "Patrick Hand", serif;
 }
-
+ 
 .linkTwo {
-    color:rgb(17, 105, 219);
+    color:rgb(15, 216, 29);
     font-family: "Patrick Hand", serif;
 }
 
 .linkThree {
-    color:rgb(3, 47, 23);
+    color:rgb(179, 131, 235);
     font-family: "Patrick Hand", serif;
 }
 
@@ -111,7 +111,7 @@ body {
 }
 
 .linkSeven {
-    color:rgb(10, 130, 229);
+    color:rgb(152, 164, 174);
     font-family: "Patrick Hand", serif;
 }
 
