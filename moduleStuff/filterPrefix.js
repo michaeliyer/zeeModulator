@@ -1,4 +1,5 @@
 import { wordList } from './wordList.js';
+
 // Filter words by prefix
 function filterWordsByPrefix(prefix) {
     return wordList.filter(word => word.startsWith(prefix.toUpperCase()));
