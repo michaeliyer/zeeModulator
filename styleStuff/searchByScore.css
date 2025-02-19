@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(42, 39, 39);
+    color: rgb(222, 212, 212);
+}
+
+.eachLink {
+    display: block;
+    color:rgb(43, 168, 21);
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.eachLink:hover {
+    color: rgb(21, 79, 186);
+    text-decoration: underline;
+    font-family: "Fugaz One", serif;
+}

@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(25, 178, 63);
+    color: rgb(10, 55, 30);
+}
+
+.eachLink {
+    display: block;
+    color:rgb(19, 84, 7);
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.eachLink:hover {
+    color: rgb(21, 79, 186);
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: "Creepster", serif;
+}

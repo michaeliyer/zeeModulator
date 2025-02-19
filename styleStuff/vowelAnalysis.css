@@ -1,0 +1,27 @@
+
+
+body {
+    background-color: rgba(78, 6, 79, 0.914);
+    color: rgb(4, 122, 4);
+}
+
+#vowelUsageOutput {
+    color:rgb(166, 182, 211);
+    display: none;  /* Start as hidden */
+}
+
+.eachLink {
+    display: block;
+    color:rgb(43, 168, 21);
+    text-decoration: none;
+    margin: 5px 0;
+    font-family: "Ceviche One", serif;
+    font-size: 2rem;
+}
+
+.eachLink:hover {
+    color: rgb(166, 182, 211);
+    text-decoration: underline;
+    font-family: "MonteCarlo", serif;
+    font-size: 2rem;
+}

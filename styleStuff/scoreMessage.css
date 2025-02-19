@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(105, 185, 203);
+    color: rgb(23, 23, 182);
+}
+
+.eachLink {
+    display: block;
+    color:rgb(43, 168, 21);
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.eachLink:hover {
+    color: rgb(21, 79, 186);
+    text-decoration: underline;
+    font-family: "Peralta", serif;
+}

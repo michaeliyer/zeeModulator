@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(21, 79, 186);
+    color: rgb(162, 226, 43);
+}
+
+#linksVille {
+    background-color: rgb(162, 226, 43);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.eachLink {
+    display: block;
+    color:rgb(43, 168, 21);
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.eachLink:hover {
+    color: rgb(21, 79, 186);
+    text-decoration: underline;
+    font-family: "Freckle Face", serif;
+}
+
+.hidden {
+    display: none;
+}

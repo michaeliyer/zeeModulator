@@ -1,0 +1,17 @@
+
+body {
+    background-color: rgba(86, 120, 224, 0.914);
+    color: rgb(10, 3, 41);
+}
+
+.eachLink {
+    display: block;
+    color:rgb(43, 168, 21);
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.eachLink:hover {
+    color: rgb(21, 79, 186);
+    text-decoration: underline;
+}
