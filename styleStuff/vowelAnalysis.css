@@ -5,8 +5,14 @@ body {
     color: rgb(4, 122, 4);
 }
 
+h2 {
+    font-family: "MonteCarlo", serif;
+    color:rgb(124, 161, 228);
+    font-size: 2rem;
+}
+
 #vowelUsageOutput {
-    color:rgb(166, 182, 211);
+    color:rgb(206, 166, 21);
     display: none;  /* Start as hidden */
 }
 
@@ -15,14 +21,14 @@ body {
     color:rgb(43, 168, 21);
     text-decoration: none;
     margin: 5px 0;
-    font-family: "Ceviche One", serif;
+    font-family: "Ceviche One", serif; 
     font-size: 2rem;
 }
 
 .eachLink:hover {
     color: rgb(166, 182, 211);
     text-decoration: underline;
-    font-family: "MonteCarlo", serif;
+    font-family: "Lalezar", serif;
     font-size: 2rem;
 }
 #linksVille {
@@ -34,51 +40,32 @@ body {
 
 .linkOne {
     color:rgb(150, 231, 19);
-    font-family: "Amaranth", serif;
-    font-weight: 400;
-    font-style: normal;
 }
+
 .linkTwo {
     color:rgb(17, 105, 219);
-    font-family: "Amaranth", serif;
-    font-weight: 700;
-    font-style: normal;
 }
+
 .linkThree {
     color:rgb(7, 103, 52);
-    font-family: "Amaranth", serif;
-    font-weight: 400;
-    font-style: italic;
 }
+
 .linkFour {
-    color:rgb(105, 6, 57);
-    font-family: "Amaranth", serif;
-    font-weight: 700;
-    font-style: italic;
+    color:rgb(219, 113, 167);
 }
+
 .linkFive {
     color:rgb(221, 10, 10);
-    font-family: "Amaranth", serif;
-    font-weight: 400;
-    font-style: normal;
-
 }
+
 .linkSix {
     color:rgb(54, 38, 143);
-    font-family: "Amaranth", serif;
-    font-weight: 700;
-    font-style: normal;
 }
+
 .linkSeven {
     color:rgb(10, 130, 229);
-    font-family: "Amaranth", serif;
-    font-weight: 400;
-    font-style: normal;
-
 }
+
 .linkEight {
     color:rgb(6, 14, 67);
-    font-family: "Amaranth", serif;
-    font-weight: 700;
-    font-style: normal;
 }

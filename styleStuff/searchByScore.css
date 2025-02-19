@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(42, 39, 39);
+    background-color: rgb(5, 25, 116);
     color: rgb(222, 212, 212);
 }
 
@@ -8,9 +8,8 @@ body {
 }
 
 #linksVille {
-    background-color: rgb(162, 226, 43);
+    background-color: rgb(5, 25, 116);
     padding: 10px;
-    border-radius: 5px;
 }
 
 .eachLink {
@@ -21,7 +20,7 @@ body {
 }
 
 .eachLink:hover {
-    color: rgb(21, 79, 186);
+    color: rgb(255, 255, 255);
     text-decoration: underline;
     font-family: "Fugaz One", serif;
 }
@@ -62,7 +61,7 @@ body {
 }
 
 .linkEight {
-    color:rgb(6, 14, 67);
+    color:rgb(136, 209, 163);
     font-family: "Alfa Slab One", serif;
 }
 
