@@ -1,9 +1,8 @@
-import { wordList } from './wordList.js';
-import { letterValues } from './letterValues.js';
 
+import { fixedWordsLarge, letterValues } from '../theWholeEnchilada.js';
 // Filter words by Scrabble score
 function filterWordsByScore(score) {
-    const wordsWithScore = wordList.filter(word => {
+    const wordsWithScore = fixedWordsLarge.filter(word => {
         let totalScore = 0;
         for (let char of word) {
             if (letterValues[char.toUpperCase()]) {

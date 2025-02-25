@@ -1,4 +1,4 @@
-import { wordList } from './wordList.js';
+import { fixedWordsLarge } from '../theWholeEnchilada.js';
 
 function analyzeVowelUsage() {
     const vowels = ['A', 'E', 'I', 'O', 'U'];
@@ -8,7 +8,7 @@ function analyzeVowelUsage() {
         vowelStats[vowel] = { count: 0, positions: [0, 0, 0, 0, 0] };
     });
 
-    wordList.forEach(word => {
+    fixedWordsLarge.forEach(word => {
         [...word.toUpperCase()].forEach((char, index) => {
             if (vowels.includes(char)) {
                 vowelStats[char].count++;

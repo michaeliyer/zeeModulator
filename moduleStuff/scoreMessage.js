@@ -1,8 +1,7 @@
 let y = "What a Day!";
 console.log(y);
-import { wordList } from './wordList.js';
-import { letterValues } from './letterValues.js';
 
+import { fixedWordsLarge, letterValues } from '../theWholeEnchilada.js';
 function calculateScore() {
     const input = document.getElementById("inputText").value.toUpperCase();
     const outputDiv = document.getElementById("output");
@@ -41,7 +40,7 @@ function calculateScore() {
 
 
 
-    if (!wordList.includes(input)) {
+    if (!fixedWordsLarge.includes(input)) {
         totalScoreEl.innerText = "That's not a valid word!";
         return;
     }

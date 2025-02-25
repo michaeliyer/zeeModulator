@@ -1,12 +1,12 @@
-import { wordList } from './wordList.js';
+import { fixedWordsLarge } from '../theWholeEnchilada.js';
 
 
-// Analyze letter frequency in wordList
+// Analyze letter frequency in fixedWordsLarge
 function analyzeLetterFrequency() {
     const letterStats = {};
     const positionTotals = Array(5).fill(0); // Tracks number of words long enough for each position
 
-    wordList.forEach((word) => {
+    fixedWordsLarge.forEach((word) => {
         [...word.toUpperCase()].forEach((letter, index) => {
             if (index < 5) positionTotals[index]++;
 
@@ -41,7 +41,7 @@ function displayLetterDropdown() {
 // Display words containing selected letter
 function displayWordsByLetter(letter) {
     const resultDiv = document.getElementById("letterSearchResults");
-    const filteredWords = wordList.filter(word => word.toUpperCase().includes(letter));
+    const filteredWords = fixedWordsLarge.filter(word => word.toUpperCase().includes(letter));
 
     if (filteredWords.length === 0) {
         resultDiv.innerHTML = `No words found containing "${letter}".`;

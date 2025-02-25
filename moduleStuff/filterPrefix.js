@@ -1,8 +1,7 @@
-import { wordList } from './wordList.js';
-
+import { fixedWordsLarge } from '../theWholeEnchilada.js';
 // Filter words by prefix
 function filterWordsByPrefix(prefix) {
-    return wordList.filter(word => word.startsWith(prefix.toUpperCase()));
+    return fixedWordsLarge.filter(word => word.startsWith(prefix.toUpperCase()));
 }
 
 

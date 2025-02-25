@@ -1,11 +1,11 @@
-import { wordList } from './wordList.js';
+import { fixedWordsLarge } from '../theWholeEnchilada.js';
 
 function analyzeLetterFrequency() {
     const letterStats = {};
     const positionTotals = [0, 0, 0, 0, 0]; // Tracks the number of words with each position available
 
     // Loop through each word in the word list
-    wordList.forEach((word) => {
+    fixedWordsLarge.forEach((word) => {
         [...word.toUpperCase()].forEach((letter, index) => {
             // Increment position availability
             if (index < 5) positionTotals[index]++;

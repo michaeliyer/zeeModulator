@@ -1,11 +1,11 @@
 let s = "Ok man";
 console.log(s)
-import { wordList } from './wordList.js';
+import { fixedWordsLarge } from '../theWholeEnchilada.js';
 
 // Filter words by letter and position
 function filterWordsByLetterAndPosition(letter, position) {
     const positionIndex = position - 1; // Convert position to zero-based index
-    return wordList.filter(word => word[positionIndex] === letter.toUpperCase());
+    return fixedWordsLarge.filter(word => word[positionIndex] === letter.toUpperCase());
 }
 
 // Display filtered words and their count based on letter and position
@@ -37,4 +37,4 @@ function displayWordsByLetterAndPosition() {
 document.getElementById("filterByLetterAndPosition").addEventListener("click", displayWordsByLetterAndPosition);
 
 
-console.log(wordList);
+console.log(fixedWordsLarge);
