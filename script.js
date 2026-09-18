@@ -1,5 +1,6 @@
 let x = "Hello Mr. Nothing";
-console.log(x);
+let y = "Hey Mr. Chip Oil"
+console.log(x, y);
 
 
 window.addEventListener('DOMContentLoaded', () => {
