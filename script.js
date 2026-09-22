@@ -1,5 +1,5 @@
 let x = "Hello Mr. Nothing";
-let y = "Hey Mr. SHONE Chip OilMan"
+let y = "Hey Mr. Pager Chip OilMan"
 console.log(x, y);
 
 
