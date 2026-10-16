@@ -1,5 +1,5 @@
 let x = "Hello Mr. Nothing. ";
-let y = "Hey Mr. Pager Chip OilMan Jonno PSYCH!!!!! ";
+let y = "Hey Mr. Pager Chip OilMan Jonno DUNCE!!!!! ";
 let z = 20 * 20 + 29;
 console.log(x, y, " You are worth ", z, " Dollars, at least!!!!");
 
